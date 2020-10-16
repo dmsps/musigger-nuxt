@@ -1,0 +1,46 @@
+.pagination {
+    justify-content: space-between;
+    margin: 1.1em 0;
+    font-weight: bold;
+    .pagination-left a,
+    .pagination-right a,
+    .pagination-mid ul li a {
+        padding: 10px 20px;
+        background-color: var(--color-foreground);
+        margin: 0 5px;
+        text-decoration: none;
+        color: var(--color-text);
+        transition: all 0.2s ease;
+        &.current,
+        &:hover {
+            color: var(--color-foreground);
+            background-color: $color-accent;
+        }
+        @media #{$small-only} {
+            padding: 6px 12px;
+        }
+    }
+    .pagination-mid {
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        ul {
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+    }
+    .pagination-left,
+    .pagination-right {
+        @media #{$small-only} {
+            display: none;
+        }
+    }
+    .pagination-prevnext {
+        @media #{$small-only} {
+            display: none;
+        }
+    }
+}

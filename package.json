@@ -1,0 +1,41 @@
+{
+    "name": "musigger-nuxt",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "nuxt",
+        "build": "nuxt build",
+        "start": "nuxt start",
+        "generate": "nuxt generate",
+        "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
+        "lint": "npm run lint:js"
+    },
+    "dependencies": {
+        "@nuxtjs/axios": "^5.12.2",
+        "@nuxtjs/proxy": "^2.0.1",
+        "@nuxtjs/pwa": "^3.2.2",
+        "core-js": "^3.6.5",
+        "foundation-sites": "^6.6.3",
+        "lodash": "^4.17.20",
+        "npm": "^6.14.8",
+        "nuxt": "^2.14.7",
+        "vue-awesome": "^4.1.0",
+        "vue-disqus": "^4.0.1",
+        "vue-lazyload": "^1.3.3",
+        "vue-multiselect": "^2.1.6",
+        "vue-notification": "^1.3.20"
+    },
+    "devDependencies": {
+        "@nuxtjs/eslint-config": "^3.1.0",
+        "@nuxtjs/eslint-module": "^3.0.0",
+        "babel-eslint": "^10.1.0",
+        "eslint": "^7.11.0",
+        "eslint-config-prettier": "^6.13.0",
+        "eslint-plugin-nuxt": "^1.0.0",
+        "eslint-plugin-prettier": "^3.1.4",
+        "node-sass": "^4.14.1",
+        "prettier": "^2.1.2",
+        "sass": "^1.27.0",
+        "sass-loader": "^10.0.3"
+    }
+}

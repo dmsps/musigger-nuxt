@@ -1,0 +1,20 @@
+/*
+    Musigger Application
+    Designed by Anton Zolotov (antonzolotov@outlook.com)
+*/
+@import "styles/plugins/vue-multiselect-settings";
+@import "styles/var";
+
+/*Vendor's libraries*/
+@import "~foundation-sites/scss/foundation";
+@include foundation-xy-grid-classes;
+@include foundation-forms;
+@import "styles/plugins/vue-multiselect";
+
+/*App styles*/
+@import "styles/global.scss";
+@import "styles/filtration.scss";
+@import "styles/pagination.scss";
+@import "styles/top.scss";
+@import "styles/release.scss";
+@import "styles/footer.scss";
